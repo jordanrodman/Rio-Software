@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\REACT"
+		},
+		{
+			"path": "..\\..\\playlee-ws"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\xampp\\htdocs\\perfek"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

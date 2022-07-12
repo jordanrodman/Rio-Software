@@ -1,0 +1,264 @@
+.playlee{
+    background-color: whitesmoke;
+    &-header{
+        display: flex;
+        background-color: white;
+        width: 100%;
+        &-navbar{
+            background-color: white;
+            height: 100px;
+            width: 70%;
+            &__brand{
+                padding-left: 150px;
+                img{
+                    width: 300px;
+                    height: 90px;
+                }
+            }
+            &__nav{
+                margin-left:32%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                width: 60%;
+                a{
+                    font-family:monospace;
+                    font-weight: 200;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                a:hover{
+                    background-color: #000000;
+                }
+            }
+        }
+    }
+    &-home{
+        &__info-banner{
+            background-color: whitesmoke;
+            justify-content: center;
+            margin: 100px auto;
+            padding: 10px;
+            .carousel{
+                width: 100%;
+            }
+            .imgbaner{
+                border-radius: 30px;
+                height: 450px;
+            }
+        }
+        &__somos{
+            margin-bottom: 50px;
+            padding: 10px 30px;
+            text-align: justify;
+        }
+        &__hacemos{
+            margin-bottom: 50px;
+            button{
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: skyblue;
+            }
+        }
+        &__history{
+            margin-bottom: 50px;
+            padding: 10px 30px;
+            text-align: justify;
+        }
+        &__hicimos{
+            border: 3px solid transparent;
+            margin-bottom: 50px;
+            text-align: center;
+            .video{
+                margin-bottom: 100px;
+                video{
+                    width: 85%;
+                }
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                font-weight: bolder;
+            }
+            .carousel2{
+                border-style: inset;
+            }
+            .gale{
+                margin: 50px 0;
+                img{
+                    // border: solid 3px blueviolet;
+                    height: 200px;
+                }
+            }
+        }
+        &__aliados{
+            margin-bottom: 50px;
+            text-align: center;
+            h2{
+                background-color: #3abfef;
+                margin-bottom: 30px;
+                border-radius: 30px;
+                text-decoration: underline;
+            }
+            img{
+                width: 96px;
+                height: 100px;
+                border: 2px dashed ;
+                border-radius: 30px;
+            }
+        }
+    }
+    &-estuvimos{
+        .container{
+            border: 4px outset;
+            padding: 20px;
+        }
+        &__estuv{
+            .row {
+                justify-content: flex-end;
+                text-align: flex-end;
+                padding-left: 50px;
+            }
+            .col{
+                margin-top: 20px;
+                width: 100%;
+            }
+            margin-top: 50px;
+            padding: 50px;
+            text-align: center;
+            .card{
+                border-style: groove;
+                margin-bottom: rem(280px);
+                img{
+                    height: 180px;
+                }
+            }
+        }
+    }
+
+    &__form{
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .form-des{
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .dtext1{
+                text-align: justify;
+            }
+            .email{
+                width: 70%;
+                margin-bottom: 20px;
+                span{
+                    margin: 10px;
+                    font-style: italic;
+                    font-weight: 600;
+                }
+            }
+            .dtext2{
+                text-align: justify;
+            }
+            p{
+                width: 70%;
+                text-align: center;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+        }
+
+        padding-top: 150px;
+        .form-group{
+            border: 1px solid black;
+            padding: 20px 40px;
+            input{
+                margin: 20px;
+            }
+            textarea{
+                margin: 20px;
+                padding: 20px;
+            }
+            button{
+                margin: 10px;
+                width: 15%;
+            }
+        }
+        margin-bottom: 70px;
+    }
+    .jtd{
+        margin: 100px 0 50px;
+        padding-top: 30px;
+        text-align: center;
+        h1{
+            margin-bottom: 50px;
+        }
+    }
+    &__footer{
+        margin-top: auto;
+        background-color:#3abfef;
+        a:hover{
+            text-decoration: none;
+        }
+        .row{
+            padding: 10px 30px;
+                img{
+                    width: 300px;
+                    height: auto;
+                }
+            .inf-c{
+            .imafu{
+                margin: 0 10px;
+            }
+            div{
+                padding: 10px 30px;
+                img{
+                    width: 30px;
+                    height: auto;
+                    margin-left: 40%;
+                }
+            }
+
+        }
+    }
+    .copy{
+        margin-left: 30%;
+    }
+}
+.accordion h2{
+    font-size: 25px;
+}
+.accordion h2 button{
+    border-radius: 30px;
+    border: 3px solid black;
+    width: 350px;
+    font-size: 25px;
+}
+.card-img-topm{
+    height: auto;
+    width: 450px;
+}
+.modal-text{
+    margin-top: 20px;
+}
+.redes{
+    display: flex;
+    width: 45px;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 100px;text-align: center;
+    border-radius: 0%;
+    img{
+        width: 30px;
+        margin-bottom: 15px;
+    }
+}
+.btncarru{
+    background-color: transparent;
+    border: none;
+}
+}

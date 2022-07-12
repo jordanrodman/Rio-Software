@@ -1,0 +1,336 @@
+.playlee {
+  background-color: whitesmoke;
+}
+
+.playlee-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.playlee-header-navbar {
+  background-color: white;
+  height: 100px;
+  width: 70%;
+}
+
+.playlee-header-navbar__brand {
+  padding-left: 150px;
+}
+
+.playlee-header-navbar__brand img {
+  width: 300px;
+  height: 90px;
+}
+
+.playlee-header-navbar__nav {
+  margin-left: 32%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.playlee-header-navbar__nav a {
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.playlee-header-navbar__nav a:hover {
+  background-color: #000000;
+}
+
+.playlee-home__info-banner {
+  background-color: whitesmoke;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.playlee-home__info-banner .carousel {
+  width: 100%;
+}
+
+.playlee-home__info-banner .imgbaner {
+  border-radius: 30px;
+  height: 450px;
+}
+
+.playlee-home__somos {
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  text-align: justify;
+}
+
+.playlee-home__hacemos {
+  margin-bottom: 50px;
+}
+
+.playlee-home__hacemos button {
+  cursor: pointer;
+}
+
+.playlee-home__hacemos button:hover {
+  background-color: skyblue;
+}
+
+.playlee-home__history {
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  text-align: justify;
+}
+
+.playlee-home__hicimos {
+  border: 3px solid transparent;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.playlee-home__hicimos .video {
+  margin-bottom: 100px;
+}
+
+.playlee-home__hicimos .video video {
+  width: 85%;
+}
+
+.playlee-home__hicimos button {
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+}
+
+.playlee-home__hicimos .carousel2 {
+  border-style: inset;
+}
+
+.playlee-home__hicimos .gale {
+  margin: 50px 0;
+}
+
+.playlee-home__hicimos .gale img {
+  height: 200px;
+}
+
+.playlee-home__aliados {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.playlee-home__aliados h2 {
+  background-color: #3abfef;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  text-decoration: underline;
+}
+
+.playlee-home__aliados img {
+  width: 96px;
+  height: 100px;
+  border: 2px dashed;
+  border-radius: 30px;
+}
+
+.playlee-estuvimos .container {
+  border: 4px outset;
+  padding: 20px;
+}
+
+.playlee-estuvimos__estuv {
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+.playlee-estuvimos__estuv .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: flex-end;
+  padding-left: 50px;
+}
+
+.playlee-estuvimos__estuv .col {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.playlee-estuvimos__estuv .card {
+  border-style: groove;
+  margin-bottom: rem(280px);
+}
+
+.playlee-estuvimos__estuv .card img {
+  height: 180px;
+}
+
+.playlee__form {
+  padding-top: 150px;
+  margin-bottom: 70px;
+}
+
+.playlee__form h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.playlee__form .form-des {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.playlee__form .form-des .dtext1 {
+  text-align: justify;
+}
+
+.playlee__form .form-des .email {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.playlee__form .form-des .email span {
+  margin: 10px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.playlee__form .form-des .dtext2 {
+  text-align: justify;
+}
+
+.playlee__form .form-des p {
+  width: 70%;
+  text-align: center;
+}
+
+.playlee__form .form-des a:hover {
+  text-decoration: none;
+}
+
+.playlee__form .form-group {
+  border: 1px solid black;
+  padding: 20px 40px;
+}
+
+.playlee__form .form-group input {
+  margin: 20px;
+}
+
+.playlee__form .form-group textarea {
+  margin: 20px;
+  padding: 20px;
+}
+
+.playlee__form .form-group button {
+  margin: 10px;
+  width: 15%;
+}
+
+.playlee .jtd {
+  margin: 100px 0 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.playlee .jtd h1 {
+  margin-bottom: 50px;
+}
+
+.playlee__footer {
+  margin-top: auto;
+  background-color: #3abfef;
+}
+
+.playlee__footer a:hover {
+  text-decoration: none;
+}
+
+.playlee__footer .row {
+  padding: 10px 30px;
+}
+
+.playlee__footer .row img {
+  width: 300px;
+  height: auto;
+}
+
+.playlee__footer .row .inf-c .imafu {
+  margin: 0 10px;
+}
+
+.playlee__footer .row .inf-c div {
+  padding: 10px 30px;
+}
+
+.playlee__footer .row .inf-c div img {
+  width: 30px;
+  height: auto;
+  margin-left: 40%;
+}
+
+.playlee__footer .copy {
+  margin-left: 30%;
+}
+
+.playlee .accordion h2 {
+  font-size: 25px;
+}
+
+.playlee .accordion h2 button {
+  border-radius: 30px;
+  border: 3px solid black;
+  width: 350px;
+  font-size: 25px;
+}
+
+.playlee .card-img-topm {
+  height: auto;
+  width: 450px;
+}
+
+.playlee .modal-text {
+  margin-top: 20px;
+}
+
+.playlee .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.playlee .redes img {
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.playlee .btncarru {
+  background-color: transparent;
+  border: none;
+}
+/*# sourceMappingURL=styles.css.map */
