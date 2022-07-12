@@ -1,0 +1,494 @@
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.footer-logo img{
+    height: 120px;
+}
+
+
+#navigation li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+#contact-form{
+    height: 662px;
+}
+
+.shape-dog img{
+    height: 200px;
+}
+
+.personas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.team-caption:hover{
+    background: rgb(6, 73, 34);
+}
+
+.colorr:hover {
+    background: rgb(4, 94, 38);
+}
+
+
+.about-details-cap{
+    border: black solid 0.10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+   
+#navigation li a:hover{
+    color: rgb(5, 54, 16);
+}
+.header-right-btn a{
+    background:rgb(4, 94, 38) ;
+}
+
+.slicknav_btn a{
+    color:rgb(4, 94, 38)  ;
+}
+
+.services-cap h5:hover {
+color: rgb(4, 94, 38);
+}
+
+.about-details-cap p b{
+    font-size: 25px;
+    color: rgb(8, 0, 7);
+}
+
+.about-details-cap h4{
+    color: rgb(4, 73, 25);
+    text-align: center;
+}
+
+.team-img1{
+    position: relative;
+    overflow: hidden;
+}
+.team-img1::before{
+    content: "Es posible generar desarrollo socioeconómico y bienestar a la comunidad a partir del turismo y el aprovechamiento sostenible de los recursos derivados de la biodiversidad ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(1, 10, 6, 0.384);
+    transform: scale(0);
+    transition: transform .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.team-img1:hover::before{
+    transform: scale(1) ;
+}
+
+.team-img2{
+    position: relative;
+    overflow: hidden;
+}
+.team-img2::before{
+    content: "Brindamos experiencias turísticas de la mano de anfitriones locales como valor agregado, para que el turista viva y disfrute la cultura con los nativos de la región ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(1, 10, 6, 0.384);
+    transform: scale(0);
+    transition: transform .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.team-img2:hover::before{
+    transform: scale(1) ;
+}
+
+.about-details-cap{
+    
+    background-color: rgba(3, 87, 38, 0.034);
+    
+}
+
+
+#navigation li a:hover{
+  color:  rgb(5, 83, 5) ;
+font-weight: 500px;
+  
+   
+}
+.services-cap h5 a{
+    text-transform: uppercase;
+}
+
+
+#navigation a{
+    color: rgba(153, 15, 15, 0.815);
+    font-weight: 900;
+}
+
+#imgformu img{
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#colorwite p{
+font-size: 25px;
+}
+
+#colorwite h1{
+color: rgb(3, 114, 59);
+}
+
+.footer-tittle li{
+    text-transform: uppercase;
+}
+#gallery-area{
+    padding-top: 10px;
+}
+#our-services{
+    padding-bottom: 40px;
+}
+#colorwite span{
+    color: white;
+}
+#colorwite p{
+    color: white;
+}
+#pasadia-turistica #img-plan1 {
+    width: 280px;
+    height: 520px; 
+    overflow: hidden;
+    object-fit: cover;
+}
+#historia-organizacion{
+    border: none;
+    
+}
+
+
+
+.single-slider img{
+    overflow: hidden;
+    object-fit: cover;
+}
+.form-group button{
+    border-radius: 60px;
+    font-weight: 900;
+}
+
+
+
+.slider-area2 {
+    overflow: hidden;
+    object-fit: cover;
+}
+#hero-cap h2{
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+#imagenes-texto{
+    display:flex;
+    
+}
+
+#pasadia-turistica .img-plan1{
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+
+.contact-animal-owner{
+    margin-top: 80px;
+}
+
+#justific-text{
+    text-align: justify;
+}
+#titulo-servicio{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width:1300px ) {
+    #imagenes-texto{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .header-area .header-btn{
+        font-size: 15px;
+    }
+    
+
+  
+}
+@media screen and (max-width:1043px ) {
+    
+
+    .header-area .header-btn{
+        font-size: 10px;
+    }
+    
+
+  
+}
+@media screen and (max-width:999px ) {
+    
+
+    .header-area .header-btn{
+        font-size: 8px;
+    }
+    
+
+  
+}
+@media screen and (max-width:992px ) {
+    #imagenes-texto{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        align-items: center;
+        
+    }
+   
+
+    #pasadia-turistica .img-plan1{
+        width: 500px;
+        height: 450px;
+        object-fit: cover;
+        overflow: hidden;
+        
+    }
+    
+
+  
+}
+
+
+
+@media screen and (min-width:1000px ) {
+    .logo a img{
+        height: 60px;
+        object-fit: cover;
+        overflow: hidden;
+      }
+      .logo {
+        width: 140px;
+        
+      }
+
+      
+   
+    
+
+  
+}
+
+@media screen and (max-width:770px){
+    .shape-dog img{
+        height: 90px;
+    }
+    .team-caption:hover{
+    background: rgb(6, 73, 34);
+}
+
+.colorr:hover {
+    background: rgb(4, 94, 38);
+}
+
+#colorwite p{
+    color: black;
+    font-weight: 500;
+   
+}
+
+
+
+.about-details-cap{
+    border: black solid 0.10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+   
+#navigation li a:hover{
+    color: rgb(5, 54, 16);
+}
+.header-right-btn a{
+    background:rgb(4, 94, 38) ;
+}
+
+.slicknav_btn a{
+    color:rgb(4, 94, 38)  ;
+}
+
+#imagenes-texto{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+#pasadia-turistica .img-plan1{
+    width: 80%;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+#imagenes-texto{
+   width: 80%;
+    
+}
+#titulo-servicio{
+    font-size: 20px;
+}
+#colorwite p{
+    color: white;
+}
+
+    
+}
+
+
