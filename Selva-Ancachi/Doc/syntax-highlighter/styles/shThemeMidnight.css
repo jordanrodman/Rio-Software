@@ -1,0 +1,98 @@
+
+.syntaxhighlighter {
+  background-color: #0f192a ;
+}
+.syntaxhighlighter .line.alt1 {
+  background-color: #0f192a ;
+}
+.syntaxhighlighter .line.alt2 {
+  background-color: #0f192a ;
+}
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
+  background-color: #253e5a ;
+}
+.syntaxhighlighter .line.highlighted.number {
+  color: #38566f ;
+}
+.syntaxhighlighter table caption {
+  color: #d1edff ;
+}
+.syntaxhighlighter .gutter {
+  color: #afafaf ;
+}
+.syntaxhighlighter .gutter .line {
+  border-right: 3px solid #435a5f ;
+}
+.syntaxhighlighter .gutter .line.highlighted {
+  background-color: #435a5f ;
+  color: #0f192a ;
+}
+.syntaxhighlighter.printing .line .content {
+  border: none ;
+}
+.syntaxhighlighter.collapsed {
+  overflow: visible ;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  color: #428bdd ;
+  background: black ;
+  border: 1px solid #435a5f ;
+}
+.syntaxhighlighter.collapsed .toolbar a {
+  color: #428bdd ;
+}
+.syntaxhighlighter.collapsed .toolbar a:hover {
+  color: #1dc116 ;
+}
+.syntaxhighlighter .toolbar {
+  color: #d1edff ;
+  background: #435a5f ;
+  border: none ;
+}
+.syntaxhighlighter .toolbar a {
+  color: #d1edff ;
+}
+.syntaxhighlighter .toolbar a:hover {
+  color: #8aa6c1 ;
+}
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a {
+  color: #d1edff ;
+}
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+  color: #428bdd ;
+}
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+  color: #1dc116 ;
+}
+.syntaxhighlighter .keyword {
+  color: #b43d3d ;
+}
+.syntaxhighlighter .preprocessor {
+  color: #8aa6c1 ;
+}
+.syntaxhighlighter .variable {
+  color: #ffaa3e ;
+}
+.syntaxhighlighter .value {
+  color: #f7e741 ;
+}
+.syntaxhighlighter .functions {
+  color: #ffaa3e ;
+}
+.syntaxhighlighter .constants {
+  color: #e0e8ff ;
+}
+.syntaxhighlighter .script {
+  font-weight: bold ;
+  color: #b43d3d ;
+  background-color: none ;
+}
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
+  color: #f8bb00 ;
+}
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
+  color: white ;
+}
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
+  color: #ffaa3e ;
+}
